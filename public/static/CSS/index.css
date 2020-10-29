@@ -1,7 +1,16 @@
 /* this file is to be linked with index.html */
 body {
-  margin: 0 40%;
+  margin: 20% 50%;
 }
-p {
-  font-size: 30px;
+
+button {
+  border-radius: 2px;
+  height: 50px;
+  width: 60px;
+  /* border: 1px solid white; */
+}
+
+button:hover {
+  background-color: blue;
+  color: antiquewhite;
 }
